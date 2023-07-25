@@ -16,7 +16,7 @@
                       @if($submissionCount)
                           {{ $submissionCount }} submission{{ $submissionCount == 1 ? '' : 's' }} awaiting processing.
                       @else
-                          The submission queue is clear. Hooray!
+                          The submission queue is clear. Hooray!  hi
                       @endif
                   </p>
                   <div class="text-right">
